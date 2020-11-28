@@ -1,0 +1,4 @@
+epoch: 0 avg l1 =0.0 avg color loss =0.0 avg ssim = 0.0 avg grad loss = 0.0 avg vgg loss = 0.0avg tv loss = 5.9129609456119526e-05
+epoch: 1 avg l1 =0.0 avg color loss =0.0 avg ssim = 0.0 avg grad loss = 0.0 avg vgg loss = 0.0avg tv loss = 4.985358048413348e-05
+epoch: 2 avg l1 =0.0 avg color loss =0.0 avg ssim = 0.0 avg grad loss = 0.0 avg vgg loss = 0.0avg tv loss = 4.372972294472025e-05
+epoch: 3 avg l1 =0.0 avg color loss =0.0 avg ssim = 0.0 avg grad loss = 0.0 avg vgg loss = 0.0avg tv loss = 3.900253458206342e-05
