@@ -14,7 +14,7 @@ if __name__ == "__main__":
     parser.add_argument('--save_by_epoch', type = int, default = 1, help = 'interval between model checkpoints (by epochs)')
     parser.add_argument('--valid_by_epoch', type = int, default = 1, help = 'interval between model validation (by epochs)')
     parser.add_argument('--save_name_mode', type = bool, default = True, help = 'True for concise name, and False for exhaustive name')
-    parser.add_argument('--load_name', type = str, default = 'pretrain_model/tcl_x4_bright.pkl', help = 'load the pre-trained model with certain epoch')
+    parser.add_argument('--load_name', type = str, default = 'tcl_x4_bright.pkl', help = 'load the pre-trained model with certain epoch')
     parser.add_argument('--model_offset', type = int, default = 0, help = 'model offset num')
     # GPU parameters
     parser.add_argument('--multi_gpu', type = bool, default = False, help = 'True for more than 1 GPU')

@@ -111,7 +111,8 @@ def train(opt):
                         out_img_name = os.path.split(img_name[0])[1].split('.jpg')[0] + '_epoch_' + str(epoch) + '.png'
                         if not os.path.exists(opt.valid_folder):
                             os.mkdir(opt.valid_folder)
-
+                        
+                        print(out_img_name)
                         output_img = os.path.join(opt.valid_folder, out_img_name)
                         cv2.imwrite(output_img, y_hr)
 
@@ -240,15 +241,9 @@ def train(opt):
         # Save model at certain epochs or iterations
         save_model(generator, (epoch + 1), opt)
 
-        
-
-        
-
         # Learning rate decrease at certain epochs
         adjust_learning_rate(opt, (epoch + 1), (iters_done + 1), optimizer_G)
 
-
-        
         avg_l1_loss = avg_l1_loss / (i + 1)
         avg_ssim_loss = avg_ssim_loss / (i + 1)
         avg_cs_ColorLoss = avg_cs_ColorLoss / (i + 1)

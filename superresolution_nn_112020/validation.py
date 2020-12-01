@@ -37,7 +37,8 @@ if __name__ == "__main__":
     # ----------------------------------------
 
     # Define the dataset
-    testset = dataset.UDCValidDataset(opt)
+    SRValidDataset
+    testset = dataset.SRValidDataset(opt)
     print('The overall number of images equals to %d' % len(testset))
 
     # Define the dataloader
